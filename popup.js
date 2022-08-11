@@ -1,9 +1,7 @@
 document.addEventListener('DOMContentLoaded', async () => {
-  console.log(process.env.NODE_ENV);
-
   const linksLink = document.getElementById('linksList');
   const url = 'https://ki.api.janiru.dev/api/insights';
-  const key = 'API_KEY';
+  const key = 'XXX';
 
   const copy = (e) => {
     const str = e.target.dataset.url;
@@ -29,6 +27,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       },
     });
     const entries = await apiRes.json();
+
+    console.log(entries);
 
     const entriesHtml = entries.data.entries
       .map((entry) => {
