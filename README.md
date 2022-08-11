@@ -6,7 +6,7 @@ This chrome extension shows new Kainos events at a single click and gives furthe
 
 This extension calls a serverless backend API at https://ki.api.janiru.dev/ calling a POST request to /api/insights, where an Authorization Bearer token must be passed into the header
 
-##POST API Call:
+## POST API Call:
 ![image](https://user-images.githubusercontent.com/64431581/184106039-f123aaaa-61b8-4c37-a409-0eef9417b628.png)
 
 ## Screenshots of the Chrome extension:
