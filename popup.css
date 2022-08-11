@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0.75rem 1rem;
+}
+
+.linksList {
+  padding-top: 1.5rem;
+}
+
+.entry-link > a:visited,
+.entry-link > a {
+  color: #333;
+  text-decoration: none;
+}
+
+.entry-link {
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.btn {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #eee;
+  font-size: 12px;
+  box-shadow: 1px 1px 5px #ccc;
+  transition: 100ms;
+  text-decoration: none;
+}
+
+.btn:hover {
+  transform: translateY(-1px) scale(1.025);
+  box-shadow: 2px 2px 5px #ccc;
+}
